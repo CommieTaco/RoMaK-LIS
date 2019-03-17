@@ -65,7 +65,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-toggle="tooltip" data-placement="right" title="Usuarios">
+                                <a href="users.php" data-toggle="tooltip" data-placement="right" title="Usuarios">
                                     <i class="fas fa-user-md fa-2x"></i>
                                 </a>
                             </li>
@@ -85,7 +85,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" data-toggle="tooltip" data-placement="right" title="Conexion">
+                                <a href="connection.php" data-toggle="tooltip" data-placement="right" title="Conexion">
                                     <i class="fas fa-broadcast-tower fa-2x"></i>
                                 </a>
                             </li>
