@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 ">
-            <!---Boton para buscar registro-->
+            <!---Botón para buscar registro-->
             <button type="button" class="btn btn-info">Buscar </a><i class="fas fa-search"></i></button>
         </div>
     </div>&nbsp

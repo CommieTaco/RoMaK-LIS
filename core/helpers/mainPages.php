@@ -20,7 +20,7 @@
         public static function navbars(){
             print('
             <div class="wrapper">
-
+                
     <nav id="sidebar" class="active scrollbar-info">
         <div class="force-overflow">
             <div id="sideBar" class="sidebar-header">
