@@ -15,7 +15,7 @@
             <!-- Pepe Lives-->
             </head>
             <body>');
-        }asd
+        }
 
         public static function navbars(){
             print('
@@ -45,6 +45,11 @@
                 <li>
                     <a href="#" data-toggle="tooltip" data-placement="top" title="Historial">
                         <i class="fas fa-clipboard fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Calculadora">
+                        <i class="fas fa-calculator fa-2x"></i>
                     </a>
                 </li>
                 <li>

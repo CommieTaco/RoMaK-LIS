@@ -417,8 +417,8 @@
 
                                         <!-- Botón para guardar solicitud -->
                                         <div class="col-md-12">
-                                            <button type="button" class="btn btn-danger btn-lg btn-block">Guardar
-                                                solicitud</button>
+                                            <button type="button" class="btn btn-danger btn-lg btn-block"><a href="searchRequest.php">Guardar
+                                                solicitud</a> </button>
                                         </div>
                                     </div>
                                 </div>
