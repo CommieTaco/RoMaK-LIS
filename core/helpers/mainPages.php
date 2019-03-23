@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Búsqueda">
+                    <a href="searchRequest.php" data-toggle="tooltip" data-placement="top" title="Búsqueda">
                         <i class="fas fa-search fa-2x"></i>
                     </a>
                 </li>
