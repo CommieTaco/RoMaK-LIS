@@ -228,13 +228,13 @@
         </div> &nbsp
         <div class="container-fluid ">
             <div class="row">
-                <div class="col-lg-6 col-xs-4">
+                <div class="col-lg-6 col-sm-4">
                     <button type="button" class="btn btn-danger">Imprimir codigos de barra </a></button>
                 </div>
-                <div class="col-lg-4 col-xs-4">
+                <div class="col-lg-4 col-sm-4">
                     <button type="button" class="btn btn-danger">Imprimir</a></button>                  
                 </div> 
-                <div class="col-lg-2 col-xs-4">
+                <div class="col-lg-2 col-sm-4">
                     <button type="button" class="btn btn-danger">Validar e imprimir</a></button>
                 </div>
             </div>

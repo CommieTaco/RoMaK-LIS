@@ -454,3 +454,38 @@ select option {
         display: none;
     }
 }
+
+#guion-center{
+    margin: 0 auto;
+}
+
+
+#fondo{
+    background: #C2CBCE;
+}
+
+#request-container{
+    background: #ffffff;
+    border-radius: 0.5em;
+    overflow-y: scroll;
+    height: 60vh;
+}
+
+#table-container{
+    background: #ffffff;
+    border-radius: 0.5em;
+    overflow-y: scroll;
+    height: 60vh;
+}
+
+.style{
+    background: rgb(202, 216, 221);
+}
+.style p{
+    color: #000000;
+    margin: 0em;
+}
+
+#table-container p{
+    color:#000000;
+}
