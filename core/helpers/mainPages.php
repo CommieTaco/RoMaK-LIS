@@ -15,7 +15,7 @@
             <!-- Pepe Lives-->
             </head>
             <body>');
-        }asd
+        }
 
         public static function navbars(){
             print('
