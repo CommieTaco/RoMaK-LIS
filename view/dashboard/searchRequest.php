@@ -228,15 +228,21 @@
         </div> &nbsp
         <div class="container-fluid ">
             <div class="row">
-                <div class="col-lg-6 col-sm-4">
-                    <button type="button" class="btn btn-danger">Imprimir codigos de barra </a></button>
+                <div class="col-lg-6 col-sm-12 col-md-6">
+                    <div class="container-fluid">
+                        <div class="offset-lg-7">
+                            <button type="button" class="btn btn-danger">Imprimir codigos de barra </a></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-4">
-                    <button type="button" class="btn btn-danger">Imprimir</a></button>                  
-                </div> 
-                <div class="col-lg-2 col-sm-4">
-                    <button type="button" class="btn btn-danger">Validar e imprimir</a></button>
-                </div>
+                <div class="col-lg-6 col-sm-12 col-md-6">
+                    <div class="container-fluid">
+                        <div class="offset-lg-4">
+                            <button type="button" class="btn btn-danger">Imprimir</a></button>      
+                            <button type="button" class="btn btn-danger">Validar e imprimir</a></button>            
+                        </div>    
+                    </div>    
+                </div>      
             </div>
         </div>     
     </div>
