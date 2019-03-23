@@ -48,6 +48,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Calculadora">
+                        <i class="fas fa-calculator fa-2x"></i>
+                    </a>
+                </li>
+                <li>
                     <a href="#Mantenimiento" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <span data-toggle="tooltip" data-placement="top" title="Mantenimiento"><i class="fas fa-cogs fa-2x"></i></span>
                     </a>
