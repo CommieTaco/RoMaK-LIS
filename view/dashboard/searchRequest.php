@@ -8,7 +8,8 @@
     <div class="container-fluid" id="bodyWrapper"><!--Container donde se encuentran los campos para filtrar busqueda-->
         <div class="row"><!---->
             <h3>Búsquedas de solicitudes</h3>
-        </div>&nbsp
+        </div>
+        <br>
         <div class="row"><!--Fila con todos los campos para realizar busqueda-->
             <div class="col-lg-3 col-md-6">
                 <div class="input-group mb-3">
@@ -24,7 +25,8 @@
                         <option>5 días o más</option>
                     </select>
                 </div>    
-            </div>&nbsp 
+            </div>
+            <br>
             <div class="col-lg-2 col-sm-5 col-md-5 ">
                 <div class="input-group mb-3">
                     <input type="date" class="form-control" id="fechaInicio"> 
@@ -35,7 +37,7 @@
                 <div class="input-group mb-3">    
                     <input type="date" class="form-control" id="fechaFin"> 
                 </div>    
-            </div>&nbsp
+            </div><br>
             <div class="col-lg-2 col-xs-12 offset-xs-6">
                 <button type="button" class="btn btn-success" id="button-center">Buscar </a><i class="fas fa-search"></i></button>
             </div>            
@@ -82,7 +84,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>&nbsp
+                        </div>
                         <div class="card style"><!--Creacion de carta donde se muestran los datos de la solicitud-->
                             <div class="card-body"><!--Creacion y colocacion de la informacionn de la solicitud en el cuerpo de la carta-->
                                 <div class="row">
@@ -116,7 +118,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>&nbsp
+                        </div>
                         <div class="card style"><!--Creacion de carta donde se muestran los datos de la solicitud-->
                             <div class="card-body"><!--Creacion y colocacion de la informacionn de la solicitud en el cuerpo de la carta-->
                                 <div class="row">
@@ -150,7 +152,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>&nbsp
+                        </div><br>
                     </div>   
                 </div>    
             </div>
@@ -191,7 +193,7 @@
                                                     <label class="custom-control-label" for="examen1"> Sodio</label>
                                                 </div>
                                             </th>
-                                            <td>Quimica Urinaria</td>
+                                            <td>Química Urinaria</td>
                                             <td>6.53</td>
                                             <td>0.90-1.20</td>
                                             <td>mg/dL</td>
@@ -203,7 +205,7 @@
                                                     <label class="custom-control-label" for="examen2"> Bilirubina</label>
                                                 </div>
                                             </th>
-                                            <td>Quimica Urinaria</td>
+                                            <td>Química Urinaria</td>
                                             <td>8.93</td>
                                             <td>0.60-1.40</td>
                                             <td>mg/dL</td>
@@ -215,7 +217,7 @@
                                                     <label class="custom-control-label" for="examen2"> Potasio</label>
                                                 </div>
                                             </th>
-                                            <td>Quimica Urinaria</td>
+                                            <td>Química Urinaria</td>
                                             <td>7.12</td>
                                             <td>0.7-2.40</td>
                                             <td>mg/dL</td>
@@ -227,13 +229,13 @@
                     </div>
                 </div>
             </div>          
-        </div> &nbsp
+        </div> 
         <div class="container-fluid "><!--Container para la colocación de los botones de la vista-->
             <div class="row">
                 <div class="col-lg-6 col-sm-12 col-md-6">
                     <div class="container-fluid">
                         <div class="offset-lg-7">
-                            <button type="button" class="btn btn-danger">Imprimir codigos de barra </a></button>
+                            <button type="button" class="btn btn-danger">Imprimir códigos de barra </a></button>
                         </div>
                     </div>
                 </div>
