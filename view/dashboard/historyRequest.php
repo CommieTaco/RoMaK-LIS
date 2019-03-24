@@ -1,16 +1,15 @@
 <?php 
-    //inclusion de header y navbars a la pagina
+//Inclusion de header y navbars de la pagina
     include '../../core/helpers/mainPages.php';
-    mainPages::header('Búsqueda de solicitudes');
+    mainPages::header('Historial de Solicitudes');
     mainPages::navbars();
-?>
-<!--Creación de container donde se encuentran todos los elementos de la pagina-->
+?><!--Creación de container donde se encuentran todos los elementos de la pagina-->
 <div class="container-fluid" id="bodyWrapper">
     <!--Container donde se encuentran los campos para filtrar busqueda-->
     <div class="row">
         <!---->
         <div class="mb-3">
-            <h3>Búsquedas de solicitudes</h3>
+            <h3>Historial de solicitudes</h3>
         </div>
     </div>
     <div class="row">
@@ -81,11 +80,6 @@
                                 <div class="col-lg-2 col-sm-12 col-md-2">
                                     <p>N° sol: 1</p>
                                 </div>
-                                <div class="col-1">
-                                    <a href="modifyRequests.php">
-                                        <button type="button" class="btn" id="button-center" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fas fa-pencil-alt"></i></button>
-                                    </a>
-                                </div>
                             </div>
                             <div class="row">
                                 <div class="offset-lg-1 col-md-5">
@@ -118,12 +112,6 @@
                                 </div>
                                 <div class="col-lg-2 col-sm-12 col-md-2">
                                     <p>N° sol: 2</p>
-                                </div>
-                                <div class="col-1">
-                                    <a href="modifyRequests.php">
-                                        <button type="button" class="btn" id="button-center" href="modifyRequest.php" data-toggle="tooltip" data-placement="top" title="Editar"><i
-                                            class="fas fa-pencil-alt"></i></button>
-                                    </a>
                                 </div>
                             </div>
                             <div class="row">
@@ -158,12 +146,6 @@
                                 <div class="col-lg-2 col-sm-12 col-md-2">
                                     <p>N° sol: 3</p>
                                 </div>
-                                <div class="col-1">
-                                    <a href="modifyRequests.php">
-                                        <button type="button" class="btn" id="button-center" data-toggle="tooltip" data-placement="top" title="Editar"><i
-                                            class="fas fa-pencil-alt"></i></button>
-                                    </a>
-                                </div>
                             </div>
                             <div class="row">
                                 <div class="offset-lg-1 col-md-5">
@@ -174,7 +156,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>&nbsp
+                    </div>
                 </div>
             </div>
         </div>
@@ -259,14 +241,7 @@
     <div class="container-fluid ">
         <!--Container para la colocación de los botones de la vista-->
         <div class="row">
-            <div class="col-lg-6 col-sm-12 col-md-6">
-                <div class="container-fluid">
-                    <div class="offset-lg-7 mb-3">
-                        <button type="button" class="btn btn-danger">Imprimir codigos de barra </a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-12 col-md-6 ">
+            <div class="col-lg-6 col-sm-12 col-md-6 offset-lg-6">
                 <div class="container-fluid">
                     <div class="offset-lg-6 mb-3">
                             <button type="button" class="btn btn-danger">Imprimir</a></button>                        
