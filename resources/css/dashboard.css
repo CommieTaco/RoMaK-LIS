@@ -2,7 +2,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #fafafa;    
+}
+
+#bodyWrapper{
+    margin-top: 80px;
 }
 
 p {
@@ -10,7 +14,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: black;
 }
 
 a,
@@ -28,6 +32,17 @@ a:focus {
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    
+}
+ 
+#navbar{
+    transition: all 0.3s;   
+    margin-left: 105px;
+}
+
+#navbar.no-margin{
+    transition: all 0.3s;
+    margin-left: 0px;
 }
 
 .navbar-btn {
@@ -264,34 +279,17 @@ a.article:hover {
     margin-left: 0px;
 }
 
-input[type="text"]:hover,
-input[type="search"]:hover {
-    box-shadow: 0 4px 4px -4px gray;
-    -webkit-box-shadow: 0 4px 4px -4px gray;
-}
-
-input[type="text"]:focus,
-input[type="search"]:focus {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
-
-img.img-fluid {
-    max-width: 50px;
-    max-height: 50px;
-    border-radius: 1em;
-}
-
-#user-name {
-    font-size: 1.1vw !important;
-}
-
-#requests-main {
+#mains {
     height: 100vh;
 }
 
-#requests-header {
+#headers {
     margin-bottom: 20px;
+}
+
+#button-action{
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 #section-header,
@@ -454,39 +452,3 @@ select option {
         display: none;
     }
 }
-
-#guion-center{
-    margin: 0 auto;
-}
-
-
-#fondo{
-    background: #C2CBCE;
-}
-
-#request-container{
-    background: #ffffff;
-    border-radius: 0.5em;
-    overflow-y: scroll;
-    height: 60vh;
-}
-
-#table-container{
-    background: #ffffff;
-    border-radius: 0.5em;
-    overflow-y: scroll;
-    height: 60vh;
-}
-
-.style{
-    background: rgb(202, 216, 221);
-}
-.style p{
-    color: #000000;
-    margin: 0em;
-}
-
-#table-container p{
-    color:#000000;
-}
-

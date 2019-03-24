@@ -5,7 +5,7 @@
     mainPages::navbars();
 ?>
 <div class="container">
-    <form>
+    <form action="index.php">
         <div class="form-row">
             <div class="form-group col-sm-6">
                 <label for="nombreUsuario" class="col-form-label">Nombre:</label>
@@ -55,7 +55,7 @@
             </div>
         </div>
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registroHospital"><a>Actualizar </a><i class="fas fa-sync-alt"></i></button> &nbsp
-        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#registroHospital"><a>Cerrar Sesión </a><i class="fas fa-sign-in-alt"></i></button>
+        <button type="submit" class="btn btn-dark" href="index.php"><a>Cerrar Sesión </a><i class="fas fa-sign-in-alt"></i></button>
     </form>
 </div>
 <?php 

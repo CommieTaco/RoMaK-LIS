@@ -3,7 +3,7 @@
     mainPages::header('Busqueda de solicitudes');
     mainPages::navbars();
 ?>
-    <div class="container-fluid">
+    <div class="container-fluid" id="bodyWrapper">
         <div class="row">
             <h3>Búsquedas de solicitudes</h3>
         </div>&nbsp

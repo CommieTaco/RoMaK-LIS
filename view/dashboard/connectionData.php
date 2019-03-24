@@ -17,7 +17,7 @@
             <p>
                 <strong>Direccion IP: </strong>192.168.1.1</p>
             <p>
-                <strong>Puerto: </strong>
+                <strong>Puerto: 443</strong>
             </p>
             <p>
                 <strong>Tiempo de Conexión: 00:00:00 </strong>
