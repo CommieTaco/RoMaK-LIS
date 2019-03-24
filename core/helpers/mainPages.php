@@ -83,10 +83,10 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Calculadora">
-                                                <i class="fas fa-calculator fa-2x"></i>
-                                            </a>
-                                        </li>
+                                        <a href="calculator.php" data-toggle="tooltip" data-placement="top" title="Calculadora">
+                                            <i class="fas fa-calculator fa-2x"></i>
+                                        </a>
+                                    </li>
                                         <li>
                                             <a href="connection.php" data-toggle="tooltip" data-placement="top" title="Conexion">
                                                 <i class="fas fa-broadcast-tower fa-2x"></i>
