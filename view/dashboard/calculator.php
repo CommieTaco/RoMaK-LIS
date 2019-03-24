@@ -4,17 +4,10 @@
     mainPages::navbars();
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid" id="bodyWrapper">
     <h1>Sup</h1>
 </div>
 
 <?php
     mainPages::script();
-<<<<<<< HEAD
 ?>
-=======
-?>
-
-</body>
-</html>
->>>>>>> fb706c6510ed801259bea2073dff95cb942f5ba3
