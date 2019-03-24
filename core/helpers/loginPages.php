@@ -1,4 +1,25 @@
-<div class="wrapper">
+<?php 
+    class mainPages
+    {
+        public static function header($title){
+            print('<!DOCTYPE html>
+            <html>
+            
+            <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <title>RoMak | '.$title.' </title>
+                <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
+                <link rel="stylesheet" href="../../resources/css/login.css">
+                <link rel="stylesheet" href="../../resources/css/dashboard.css"> 
+            </head>
+            <body>');
+        }
+
+        public static function navbars(){
+            print('
+            <div class="wrapper">
 
     <nav id="sidebar" class="active scrollbar-info">
         <div class="force-overflow">
@@ -130,3 +151,21 @@
 
 
 </div>
+        ');
+        }
+        public static function script(){
+            print('   
+            </div> 
+            <script src="../../resources/js/jquery-3.3.1.min.js"></script>
+            <script src="../../resources/js/popper.min.js"></script>
+            <script src="../../resources/js/bootstrap.min.js"></script>
+            <script defer src="../../resources/js/solid.js"></script>
+            <script defer src="../../resources/js/fontawesome.js"></script>
+            <script src="../../resources/js/dashboard.js"></script> 
+        </body>
+        
+        </html>');
+        }
+    }
+    
+?>

@@ -1,13 +1,15 @@
 <?php 
+    //inclusion de header y navbars a la pagina
     include '../../core/helpers/mainPages.php';
-    mainPages::header('Busqueda de solicitudes');
+    mainPages::header('Búsqueda de solicitudes');
     mainPages::navbars();
 ?>
-    <div class="container-fluid">
-        <div class="row">
+    <!--Creación de container donde se encuentran todos los elementos de la pagina-->
+    <div class="container-fluid" id="bodyWrapper"><!--Container donde se encuentran los campos para filtrar busqueda-->
+        <div class="row"><!---->
             <h3>Búsquedas de solicitudes</h3>
         </div>&nbsp
-        <div class="row">
+        <div class="row"><!--Fila con todos los campos para realizar busqueda-->
             <div class="col-lg-3 col-md-6">
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Búsqueda">
@@ -38,7 +40,7 @@
                 <button type="button" class="btn btn-success" id="button-center">Buscar </a><i class="fas fa-search"></i></button>
             </div>            
         </div>
-        <div class="row">
+        <div class="row"><!--Fila donde se encuentran 2 contenedores uno con todas las solicitudes realizadas y otro con los detalles de la solicitud seleccionada-->
             <div class="col-lg-6">
                 <div class="container-fluid" id="request-container">
                     <div class="container" id="c1">
@@ -46,9 +48,9 @@
                             Solicitudes
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="card style">
-                            <div class="card-body">
+                    <div class="container"><!--Contenedor donde se encuentran las solicitudes-->
+                        <div class="card style"><!--Creacion de carta donde se muestran los datos de la solicitud-->
+                            <div class="card-body"><!--Creacion y colocacion de la informacionn de la solicitud en el cuerpo de la carta-->
                                 <div class="row">
                                     <div class="offset-lg-4 offset-md-4">
                                         <p class="text-center">Manuel Araniva</p>
@@ -81,8 +83,8 @@
                                 </div>
                             </div>
                         </div>&nbsp
-                        <div class="card style">
-                            <div class="card-body">
+                        <div class="card style"><!--Creacion de carta donde se muestran los datos de la solicitud-->
+                            <div class="card-body"><!--Creacion y colocacion de la informacionn de la solicitud en el cuerpo de la carta-->
                                 <div class="row">
                                     <div class="offset-lg-4 offset-md-4">
                                         <p class="text-center">Rolin Azmitia</p>
@@ -115,8 +117,8 @@
                                 </div>
                             </div>
                         </div>&nbsp
-                        <div class="card style">
-                            <div class="card-body">
+                        <div class="card style"><!--Creacion de carta donde se muestran los datos de la solicitud-->
+                            <div class="card-body"><!--Creacion y colocacion de la informacionn de la solicitud en el cuerpo de la carta-->
                                 <div class="row">
                                     <div class="offset-lg-4 offset-md-4">
                                         <p class="text-center">Jazmin Flores</p>
@@ -153,8 +155,8 @@
                 </div>    
             </div>
             <div class="col-lg-6">        
-                <div class="container-fluid" id="table-container">
-                    <div class="row">
+                <div class="container-fluid" id="table-container"><!--Contenedor que posee la tabla donde se muestran los detalles de las solicitud-->
+                    <div class="row"><!--Fila con los datos personales del paciente al que pertenece la solicitud-->
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                             <p>Manuel Araniva</p>
                         </div>
@@ -168,11 +170,11 @@
                             <p>N°R:5412</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row"><!--Fila donde se ubica la tabla con los detalles de la solicitud-->
                         <div class="container-fluid">
                             <div class="table-responsive">
                                 <table class="table">
-                                    <thead>
+                                    <thead><!--Encabezado de la tabla-->
                                         <tr>
                                         <th>Examen</th>
                                         <th>Tipo de examen</th>
@@ -226,20 +228,27 @@
                 </div>
             </div>          
         </div> &nbsp
-        <div class="container-fluid ">
+        <div class="container-fluid "><!--Container para la colocación de los botones de la vista-->
             <div class="row">
-                <div class="col-lg-6 col-xs-4">
-                    <button type="button" class="btn btn-danger">Imprimir codigos de barra </a></button>
+                <div class="col-lg-6 col-sm-12 col-md-6">
+                    <div class="container-fluid">
+                        <div class="offset-lg-7">
+                            <button type="button" class="btn btn-danger">Imprimir codigos de barra </a></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-xs-4">
-                    <button type="button" class="btn btn-danger">Imprimir</a></button>                  
-                </div> 
-                <div class="col-lg-2 col-xs-4">
-                    <button type="button" class="btn btn-danger">Validar e imprimir</a></button>
-                </div>
+                <div class="col-lg-6 col-sm-12 col-md-6">
+                    <div class="container-fluid">
+                        <div class="offset-lg-4">
+                            <button type="button" class="btn btn-danger">Imprimir</a></button>      
+                            <button type="button" class="btn btn-danger">Validar e imprimir</a></button>            
+                        </div>    
+                    </div>    
+                </div>      
             </div>
         </div>     
     </div>
 <?php 
+    //Inclusión de 
     mainPages::script();
 ?>
