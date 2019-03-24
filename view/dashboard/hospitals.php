@@ -7,15 +7,15 @@
 <!--Container con el titulo del mantenimiento y el boton agregar registro-->
 <div class="container" id="bodyWrapper">
     <div class="row">
-        <div class="col-xs-6 col-md-10 col-lg-10 col-sm-10">
+        <div class="col-xs-6 col-md-10 col-lg-10 col-sm-10 mb-3">
             <h3>Hospitales</h3>
         </div>
-        <div class="col-xs-6 col-md-2 col-sm-2">
+        <div class="col-xs-6 col-md-2 col-sm-2 mb-3">
             <!--Boton agregar nuevo registro-->
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#registroHospital"><a>Agregar
                 </a><i class="fas fa-plus"></i></button>
         </div>
-    </div>&nbsp
+    </div>
     <div class="row">
         <!--Barra de busqueda de registro-->
         <div class="col-lg-10 col-md-10 col-sm-10 ">
@@ -26,11 +26,11 @@
                 <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
             </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 ">
+        <div class="col-lg-2 col-md-2 col-sm-2 mb-3">
             <!---Boton para buscar registro-->
             <button type="button" class="btn btn-info">Buscar </a><i class="fas fa-search"></i></button>
         </div>
-    </div>&nbsp
+    </div>
     <div class="row">
         <!---Tabla con los registros-->
         <div class=" table-responsive col-sm-12">
@@ -38,11 +38,11 @@
                 <thead>
                     <tr>
                         <!--Encabezados de tabla-->
-                        <th scope="col">Logo</th>
-                        <th scope="col">Hospital</th>
-                        <th scope="col">Correo</th>
-                        <th scope="col">Teléfono</th>
-                        <th scope="col">Acciones</th>
+                        <th scope="col">LOGO</th>
+                        <th scope="col">HOSPITAL</th>
+                        <th scope="col">CORREO</th>
+                        <th scope="col">TELÉFONO</th>
+                        <th scope="col">ACCIONES</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -54,13 +54,13 @@
                         <td>85476389</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modificacionHospital"
                                             title="Actualizar"><i class="fas fa-sync-alt"></i></button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div>
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminacionHospital"><i
                                                 class="fas fa-trash"></i></button>
@@ -77,13 +77,13 @@
                         <td>54128036</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modificacionHospital"
                                             data-placement="left" title="Actualizar"><i class="fas fa-sync-alt"></i></button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div> 
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminacionHospital"><i
                                                 class="fas fa-trash"></i></button>
@@ -100,13 +100,13 @@
                         <td>12456398</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modificacionHospital"
                                             data-placement="left" title="Actualizar"><i class="fas fa-sync-alt"></i></button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div>
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminacionHospital"><i
                                                 class="fas fa-trash"></i></button>
@@ -294,7 +294,7 @@
                 </div>
                 <div class="modal-body">
                     <!--Cuerpo del modal donde se encuentran los campos de registro-->
-                    <p>¿Estas seguro de eliminar hospital?
+                    <p>¿Estas seguro de eliminar hospital?</p>
                 </div>
                 <div class="modal-footer">
                     <!--footer del modal donde se encuentra el boton de regresar y eliminar registro-->

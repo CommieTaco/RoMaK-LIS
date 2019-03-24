@@ -54,8 +54,7 @@
                 </select>
             </div>
         </div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registroHospital"><a>Actualizar </a><i class="fas fa-sync-alt"></i></button> &nbsp
-        <button type="submit" class="btn btn-dark" href="index.php"><a>Cerrar Sesión </a><i class="fas fa-sign-in-alt"></i></button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registroHospital"><a>Actualizar </a><i class="fas fa-sync-alt"></i></button>
     </form>
 </div>
 <?php 

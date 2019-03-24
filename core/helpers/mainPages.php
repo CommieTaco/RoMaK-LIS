@@ -88,14 +88,6 @@
                                             </a>
                                         </li>
                                         <li>
-<<<<<<< HEAD
-                                            <a href="calculator.php" data-toggle="tooltip" data-placement="top" title="Calculadora">
-                                                <i class="fas fa-calculator fa-2x"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-=======
->>>>>>> fb706c6510ed801259bea2073dff95cb942f5ba3
                                             <a href="connection.php" data-toggle="tooltip" data-placement="top" title="Conexion">
                                                 <i class="fas fa-broadcast-tower fa-2x"></i>
                                             </a>
@@ -146,11 +138,15 @@
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="nav navbar-nav ml-auto">
-                                        <li class="nav-item">
-                                            <a href="personalInformation.php">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">
                                                 Rolin Azmitia
                                                 <img src="../../resources/img/user/user_id1.jpg" width="50px" heigth="50px" class="img-fluid rounded-circle">
                                             </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="personalInformation.php"><i class="fas fa-user"></i> Datos Personales</a>
+                                                <a class="dropdown-item" href="index.php"><i class="fas fa-sign-in-alt"></i> Cerrar Sesión</a>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>

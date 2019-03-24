@@ -6,9 +6,9 @@
 ?>
 <div class="container" id="bodyWrapper">
     <div class="row">
-        <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+        <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12 mb-3">
             <h3>Datos de la conexión</h3>
-        </div>&nbsp
+        </div>
         <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
             <p>
                 <strong>Nombre del equipo: </strong>Equipo 1</p>

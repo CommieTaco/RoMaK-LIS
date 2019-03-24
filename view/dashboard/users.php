@@ -7,18 +7,18 @@
 <div class="container" id="bodyWrapper">
     <!--Container con el titulo del mantenimiento y el boton agregar nuevo registro-->
     <div class="row">
-        <div class="col-xs-6 col-md-10 col-lg-10 col-sm-10">
+        <div class="col-xs-6 col-md-10 col-lg-10 col-sm-10 mb-3">
             <h3>Usuarios</h3>
         </div>
-        <div class="col-xs-6 col-md-2 col-sm-2">
+        <div class="col-xs-6 col-md-2 col-sm-2 mb-3">
             <!--Boton agregar nuevo registro-->
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#registroUsuario"><a>Agregar
                 </a><i class="fas fa-plus"></i></button>
         </div>
-    </div>&nbsp
+    </div>
     <div class="row">
         <!--Barra de busqueda de registro-->
-        <div class="col-lg-10 col-md-10 col-sm-10 ">
+        <div class="col-lg-10 col-md-10 col-sm-10 mb-3">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="inputGroup-sizing-default">Buscar </span>
@@ -27,7 +27,7 @@
                     aria-describedby="inputGroup-sizing-default">
             </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 ">
+        <div class="col-lg-2 col-md-2 col-sm-2 mb-3">
             <!---Boton para buscar registro-->
             <button type="button" class="btn btn-info">Buscar </a><i class="fas fa-search"></i></button>
         </div>
@@ -40,11 +40,11 @@
                 <thead>
                     <tr>
                         <!--Encabezados de tabla-->
-                        <th scope="col">Foto</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Apellido</th>
-                        <th scope="col">Tipo</th>
-                        <th scope="col">Acciones</th>
+                        <th scope="col">FOTO</th>
+                        <th scope="col">NOMBRE</th>
+                        <th scope="col">APELLIDO</th>
+                        <th scope="col">TIPO</th>
+                        <th scope="col">ACCIONES</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -56,15 +56,15 @@
                         <td>Administrador</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal"
                                             data-target="#modificacionUsuario">
                                             <i class="fas fa-sync-alt"></i>
                                         </button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div>
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal"
                                             data-target="#eliminacionUsuario">
@@ -83,15 +83,15 @@
                         <td>Secretaria</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal"
                                             data-target="#modificacionUsuario">
                                             <i class="fas fa-sync-alt"></i>
                                         </button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div>
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal"
                                             data-target="#eliminacionUsuario">
@@ -110,15 +110,15 @@
                         <td>Jefe de hospital</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal"
                                             data-target="#modificacionUsuario">
                                             <i class="fas fa-sync-alt"></i>
                                         </button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div>
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal"
                                             data-target="#eliminacionUsuario">

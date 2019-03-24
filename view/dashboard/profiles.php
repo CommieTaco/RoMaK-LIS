@@ -6,15 +6,15 @@
 ?>
     <div class="container" id="bodyWrapper">
         <div class="row">
-            <div class="col-xs-6 col-md-10 col-lg-10 col-sm-10">
+            <div class="col-xs-6 col-md-10 col-lg-10 col-sm-10 mb-3">
                 <h3>Perfiles</h3>
             </div>
-            <div class="col-xs-6 col-md-2 col-sm-2"><!--Boton agregar nuevo perfil-->
+            <div class="col-xs-6 col-md-2 col-sm-2 mb-3"><!--Boton agregar nuevo perfil-->
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#registroPerfil"><a>Agregar </a><i class="fas fa-plus"></i></button>
             </div>
-        </div>&nbsp
+        </div>
         <div class="row">
-            <div class="col-lg-10 col-md-10 col-sm-10 ">
+            <div class="col-lg-10 col-md-10 col-sm-10">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-default">Buscar </span>
@@ -22,17 +22,17 @@
                     <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
             </div> 
-            <div class="col-lg-2 col-md-2 col-sm-2 "><!---Boton para buscar perfil-->
+            <div class="col-lg-2 col-md-2 col-sm-2 mb-3"><!---Boton para buscar perfil-->
                 <button type="button" class="btn btn-info">Buscar </a><i class="fas fa-search"></i></button>
             </div>   
-        </div>&nbsp
+        </div>
         <div class="row">
             <div class="table-responsive col-sm-12">
                 <table class="table table-hover">
                     <thead>
                         <tr><!--Encabezados de tabla-->
-                            <th>Nombre de perfil</th>
-                            <th>Acciones</th>
+                            <th>NOMBRE</th>
+                            <th>ACCIONES</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,13 +40,13 @@
                             <td>Perfil 1</td>
                             <td>
                                 <div class="row">
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-12" id="button-action">
                                         <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                             <button type="button" class="btn btn-info"  data-toggle="modal" data-target="#modificacionPerfil" data-placement="left"
                                                 title="Actualizar"><i class="fas fa-sync-alt"></i></button>
                                         </span>        
-                                    </div>&nbsp
-                                    <div class="col-xs-12">
+                                    </div>
+                                    <div class="col-xs-12" id="button-action">
                                         <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminacionPerfil"><i class="fas fa-trash"></i></button> 
                                         <span>   
@@ -58,13 +58,13 @@
                             <td>Perfil 2</td>
                             <td>
                                 <div class="row">
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-12" id="button-action">
                                         <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                             <button type="button" class="btn btn-info"  data-toggle="modal" data-target="#modificacionPerfil" data-placement="left"
                                                 title="Actualizar"><i class="fas fa-sync-alt"></i></button>
                                         </span>  
-                                    </div> &nbsp
-                                    <div class="col-xs-12">
+                                    </div>
+                                    <div class="col-xs-12" id="button-action">
                                         <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminacionPerfil"><i class="fas fa-trash"></i></button> 
                                         <span>   
@@ -76,13 +76,13 @@
                             <td>Perfil 3</td>
                             <td>
                                 <div class="row">
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-12" id="button-action">
                                         <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                             <button type="button" class="btn btn-info"  data-toggle="modal" data-target="#modificacionPerfil" data-placement="left"
                                                 title="Actualizar"><i class="fas fa-sync-alt"></i></button>
-                                    </span>  
-                                    </div> &nbsp
-                                    <div class="col-xs-12">
+                                        </span>  
+                                    </div>
+                                    <div class="col-xs-12" id="button-action">
                                         <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminacionPerfil"><i class="fas fa-trash"></i></button> 
                                         <span>   

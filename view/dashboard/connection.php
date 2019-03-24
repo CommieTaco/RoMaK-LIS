@@ -37,11 +37,11 @@
                 <thead>
                     <tr>
                         <!--Encabezados de tabla-->
-                        <th scope="col">Equipo</th>
-                        <th scope="col">Hospital</th>
-                        <th scope="col">Dirección IP</th>
-                        <th scope="col">Puerto</th>
-                        <th scope="col">Acciones</th>
+                        <th scope="col">EQUIPO</th>
+                        <th scope="col">HOSPITAL</th>
+                        <th scope="col">DIRRECCIÓN IP</th>
+                        <th scope="col">PUERTO</th>
+                        <th scope="col">ACCIONES</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -53,14 +53,14 @@
                         <td>443</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#actualizarConexion">
                                             <i class="fas fa-sync-alt"></i>
                                         </button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div>
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminarConexion">
                                             <i class="fas fa-trash"></i>
@@ -78,14 +78,14 @@
                         <td>443</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#actualizarConexion">
                                             <i class="fas fa-sync-alt"></i>
                                         </button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div>
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminarConexion">
                                             <i class="fas fa-trash"></i>
@@ -103,14 +103,14 @@
                         <td>443</td>
                         <td>
                             <div class="row">
-                                <div class="col-xs-12">
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="left" title="Actualizar">
                                         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#actualizarConexion">
                                             <i class="fas fa-sync-alt"></i>
                                         </button>
                                     </span>
-                                </div> &nbsp
-                                <div class="col-xs-12">
+                                </div>
+                                <div class="col-xs-12" id="button-action">
                                     <span data-toggle="tooltip" data-placement="right" title="Eliminar">
                                         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#eliminarConexion">
                                             <i class="fas fa-trash"></i>

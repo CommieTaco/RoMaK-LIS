@@ -40,6 +40,10 @@ a:focus {
     margin-left: 105px;
 }
 
+.nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color:transparent;
+}
 #navbar.no-margin{
     transition: all 0.3s;
     margin-left: 0px;
