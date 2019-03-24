@@ -10,4 +10,11 @@
 
 <?php
     mainPages::script();
+<<<<<<< HEAD
 ?>
+=======
+?>
+
+</body>
+</html>
+>>>>>>> fb706c6510ed801259bea2073dff95cb942f5ba3
