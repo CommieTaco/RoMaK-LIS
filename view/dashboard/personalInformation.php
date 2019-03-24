@@ -4,7 +4,7 @@
     mainPages::header('Información Personal');
     mainPages::navbars();
 ?>
-<div class="container">
+<div class="container" id="bodyWrapper">
     <form action="index.php">
         <div class="form-row">
             <div class="form-group col-sm-6">

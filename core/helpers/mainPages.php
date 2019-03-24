@@ -12,7 +12,7 @@
                     <title>RoMak | '.$title.' </title>
                     <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
                     <link rel="stylesheet" href="../../resources/css/dashboard.css">
-                
+            
                 </head>
                 <body>');
             }
@@ -146,13 +146,12 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                        
                             </nav>    
             ');
             }
             public static function script(){
                 print('   
+                        </div>
                     </div>
                 <main>
                 <footer> 

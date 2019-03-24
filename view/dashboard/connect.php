@@ -4,7 +4,7 @@
     mainPages::header('Conectar');
     mainPages::navbars();
 ?>
-<div class="container">
+<div class="container" id="bodyWrapper">
     <div class="row">
         <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
             <h3>Conexión de Equipos</h3>

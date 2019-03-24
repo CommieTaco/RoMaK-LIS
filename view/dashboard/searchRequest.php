@@ -1,7 +1,7 @@
 <?php 
     //inclusion de header y navbars a la pagina
     include '../../core/helpers/mainPages.php';
-    mainPages::header('Busqueda de solicitudes');
+    mainPages::header('Búsqueda de solicitudes');
     mainPages::navbars();
 ?>
     <!--Creación de container donde se encuentran todos los elementos de la pagina-->
