@@ -5,7 +5,7 @@
     mainPages::navbars();
 ?>
 <!--Container con el titulo del mantenimiento y el boton agregar registro-->
-<div class="container">
+<div class="container" id="bodyWrapper">
     <div class="row">
         <div class="col-xs-6 col-md-10 col-lg-10 col-sm-10">
             <h3>Tipos de Usuario</h3>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 ">
-            <!---Botón para buscar registro-->
+            <!---Boton para buscar registro-->
             <button type="button" class="btn btn-info">Buscar </a><i class="fas fa-search"></i></button>
         </div>
     </div>&nbsp

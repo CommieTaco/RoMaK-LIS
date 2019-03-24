@@ -1,11 +1,11 @@
 <?php 
     //inclusion de header y navbars a la pagina
     include '../../core/helpers/mainPages.php';
-    mainPages::header('Busqueda de solicitudes');
+    mainPages::header('Búsqueda de solicitudes');
     mainPages::navbars();
-?>  
+?>
     <!--Creación de container donde se encuentran todos los elementos de la pagina-->
-    <div class="container-fluid"><!--Container donde se encuentran los campos para filtrar busqueda-->
+    <div class="container-fluid" id="bodyWrapper"><!--Container donde se encuentran los campos para filtrar busqueda-->
         <div class="row"><!---->
             <h3>Búsquedas de solicitudes</h3>
         </div>&nbsp
