@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;    
+    background: rgb(219, 219, 219);    
 }
 
 #bodyWrapper{
@@ -32,12 +32,12 @@ a:focus {
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    margin-left: 105px;
+    margin-left: 95px;
 }
  
 #navbar{
     transition: all 0.3s;   
-    margin-left: 105px;
+    margin-left: 95px;
 }
 
 .nav-link.active, .nav-pills .show>.nav-link {
@@ -105,13 +105,13 @@ span {
 .scrollbar-info::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: #F5F5F5;
+    background-color: rgb(219, 219, 219);
     border-radius: 10px;
 }
 
 .scrollbar-info::-webkit-scrollbar {
     width: 12px;
-    background-color: #F5F5F5;
+    background-color: rgb(219, 219, 219);
 }
 
 .scrollbar-info::-webkit-scrollbar-thumb {
@@ -124,13 +124,13 @@ span {
 .scrollbar-default::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: #F5F5F5;
+    background-color: rgb(219, 219, 219);
     border-radius: 10px;
 }
 
 .scrollbar-default::-webkit-scrollbar {
     width: 12px;
-    background-color: #F5F5F5;
+    background-color: rgb(219, 219, 219);
 }
 
 .scrollbar-default::-webkit-scrollbar-thumb {
@@ -284,7 +284,7 @@ a.article:hover {
 }
 
 #mains {
-    height: 100vh;
+    height: auto;
 }
 
 #headers {
@@ -333,7 +333,8 @@ select option {
 #hospital-data,
 #tests-types,
 #tests-profiles,
-#external-tests {
+#external-tests,
+#calc-exam-data {
     background-color: #fff;
     border-radius: 1em;
     height: auto;
@@ -341,6 +342,17 @@ select option {
     padding-bottom: 20px;
     width: 100%;
     word-wrap: break-word;
+}
+
+#exam-formula{
+    background-color: #03b3a1;
+    color: #fafafa;
+    font-weight: 500;
+}
+
+#exam-formula-lbl{
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 #tests-types button,
@@ -397,6 +409,18 @@ select option {
     background-color: #1481BA;
 }
 
+/* ---------
+    searchRequest page
+----- */
+
+#table-container{
+    background-color: #fafafa;
+}
+
+.container .card, #table-container{
+    border-radius: 1em;
+    margin-top: 20px;
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
