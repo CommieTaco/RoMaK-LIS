@@ -248,6 +248,7 @@
             </div>
         </div>     
     </div>
+
 <?php 
     //Inclusión de 
     mainPages::script();
