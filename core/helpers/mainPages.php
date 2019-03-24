@@ -43,7 +43,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Historial">
+                                    <a href="historyRequest.php" data-toggle="tooltip" data-placement="top" title="Historial">
                                         <i class="fas fa-clipboard fa-2x"></i>
                                     </a>
                                 </li>

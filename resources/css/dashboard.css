@@ -382,6 +382,10 @@ select option {
     cursor: pointer;
 }
 
+#guion-center{
+    text-align: center;
+}
+
 .btn-active {
     color: #fff;
     background-color: #1481BA !important;
@@ -475,4 +479,6 @@ select option {
     #sidebarCollapse span {
         display: none;
     }
+
+
 }

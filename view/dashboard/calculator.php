@@ -55,12 +55,10 @@
             <input class="form-control" type="text" name="exam_formula" id="exam-formula">
         </div>
     </div>
+    <h1>Sup</h1>
 </div>
 
 <?php
     mainPages::script();
+
 ?>
-
-</body>
-
-</html>
