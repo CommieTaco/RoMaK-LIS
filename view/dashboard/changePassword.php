@@ -17,7 +17,7 @@
                 <label for="verificarContra" class="col-form-label">Verificar nueva contraseña</label>
                 <input type="password" class="form-control" id="verificarContra">
             </div>
-            <button type="button" class="btn btn-primary" data-placement="bottom"><a> Guardar cambios</a><i class="fas fa-save"></i> </button>
+            <button type="button" class="btn btn-primary" data-placement="bottom"><a> Guardar cambios </a><i class="fas fa-save"></i> </button>
     </form>
 </div>
 
