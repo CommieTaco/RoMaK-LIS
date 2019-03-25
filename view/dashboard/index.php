@@ -71,6 +71,81 @@
             </div>
         </div>
     </div>
+    <!--modal para recuperar contraseña -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true" id="recuperarContra">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Recuperar Contraseña</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!--Cuerpo del modal donde se encuentran los campos de recuperar contraseña-->
+                    <form>
+                        <div class="form-row">
+                            <!--Fila con los todos los campos-->
+                            
+                            <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                                <label for="usuario" class="col-form-label">Usuario:</label>
+                                <input type="text" class="form-control" id="usuario" placeholder="Ingrese nombre de usuario">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                                <label for="correo" class="col-form-label">Correo:</label>
+                                <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!--footer del modal donde se encuentra el boton de regresar y de enviar-->
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip"
+                        data-placement="bottom" title="Salir"><i class="fas fa-arrow-left"></i></button>
+                        <span data-toggle="tooltip" data-placement="left" title="Enviar">
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#codigoContra">
+                                <i class="fas fa-sign-in-alt"></i>
+                            </button>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true" id="codigoContra">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Código de verficación</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <!--Fila con el campo del código-->
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <label for="codigo" class="col-form-label">Código:</label>
+                                <input type="text" class="form-control" id="codigo" placeholder="Ingrese el código enviado a su correo">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!--footer del modal donde se encuentra el boton de regresar y verificar código-->
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip"
+                        data-placement="bottom" title="Salir"><i class="fas fa-arrow-left"></i></button>
+                    <span data-toggle="tooltip" data-placement="left" title="Verificar">
+                      <button type="button" class="btn btn-success"> <a href="changePassword.php"> </<a>
+                          <i class="fas fa-check"></i>
+                      </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php 
