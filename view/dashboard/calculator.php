@@ -30,8 +30,8 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" id="exam-enabled" class="custom-control-input">
-                                        <label for="exam-enabled" class="custom-control-label">Indic</label>
+                                        <input type="checkbox" id="indic-enabled" class="custom-control-input">
+                                        <label for="indic-enabled" class="custom-control-label">Indic</label>
                                     </div>
                                 </div>
                             </div>
