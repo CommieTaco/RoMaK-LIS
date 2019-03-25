@@ -30,12 +30,13 @@
                                             <input type="password" name="pass_usu" class="form-control" id="passwordInput"
                                                 placeholder="Ingrese su contraseña">
                                         </div>
+                                        
                                         <div class="">
-                                            <button class="btn btn-info btn-block btn-lg align-self-center" type="submit"
+                                            <button class="btn btn-info btn-block btn-lg align-self-center mb-3" type="submit"
                                                 id="btnIngresar">Ingresar</button>
                                         </div>
                                     </form>
-
+                                        <a href="" data-toggle="modal" data-target="#recuperarContra">Recuperar contraseña</a>
                                 </div>
                             </div>
 
