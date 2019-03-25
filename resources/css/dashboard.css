@@ -504,3 +504,13 @@ select option {
 
 
 }
+
+#request-container{
+    overflow: scroll;
+    height: 70vh;
+}
+
+#table-container{
+    overflow: scroll;
+    height: 67vh;
+}
