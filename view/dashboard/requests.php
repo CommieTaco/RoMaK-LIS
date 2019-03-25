@@ -165,7 +165,7 @@
                     </div>
 
                     <!-- Lista de exámenes a realizar dependiendo del tipo de muestra escogido -->
-                    <div class="col-md-6" id="pepe">
+                    <div class="col-md-12 col-lg-6" id="pepe">
                         <div class="container-fluid">
                             <div class="row">
 
@@ -178,103 +178,103 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center test-scroll" id="tests-list">
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bili-D
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     H
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     N
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Cl
                                                 </h3>
                                             </div>
 
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bili-T
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     CHOL
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     H
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     He
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Lol
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     H
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     S
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Au
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Brrr
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bbcita
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bbcita
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bbcita
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bbcita
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bbcita
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bbcita
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bbcita
                                                 </h3>
@@ -293,58 +293,58 @@
                                             </div>
                                         </div>
                                         <div class="row justify-content-center test-scroll" id="tests-list">
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bili-D
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     H
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     N
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Cl
                                                 </h3>
                                             </div>
 
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Bili-T
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     CHOL
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     CHOL
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     H
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     He
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     Lol
                                                 </h3>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                 <h3 class="justify-content-center text-center" id="indiv-test">
                                                     H
                                                 </h3>
@@ -357,7 +357,7 @@
                     </div>
 
                     <!-- Perfiles de exámenes; es decir, agrupaciones de exámenes predeterminadas -->
-                    <div class="col-md-3">
+                    <div class="col-md-12 col-lg-3">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-12" id="tests-profiles">
@@ -410,7 +410,7 @@
 
                                 <!-- Botón para guardar solicitud -->
                                 <div class="col-md-12">
-                                    <button type="button" class="btn btn-danger btn-lg btn-block">Guardar
+                                    <button type="button" id="save-request" class="btn btn-danger btn-lg btn-block">Guardar
                                         solicitud</button>
                                 </div>
                             </div>

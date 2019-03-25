@@ -30,13 +30,13 @@
                                             <input type="password" name="pass_usu" class="form-control" id="passwordInput"
                                                 placeholder="Ingrese su contraseña">
                                         </div>
-                                        
+
                                         <div class="">
                                             <button class="btn btn-info btn-block btn-lg align-self-center mb-3" type="submit"
                                                 id="btnIngresar">Ingresar</button>
                                         </div>
                                     </form>
-                                        <a href="" data-toggle="modal" data-target="#recuperarContra">Recuperar contraseña</a>
+                                    <a href="" data-toggle="modal" data-target="#recuperarContra">Recuperar contraseña</a>
                                 </div>
                             </div>
 
@@ -87,7 +87,7 @@
                     <form>
                         <div class="form-row">
                             <!--Fila con los todos los campos-->
-                            
+
                             <div class="form-group col-lg-6 col-md-6 col-sm-6">
                                 <label for="usuario" class="col-form-label">Usuario:</label>
                                 <input type="text" class="form-control" id="usuario" placeholder="Ingrese nombre de usuario">
@@ -103,11 +103,11 @@
                     <!--footer del modal donde se encuentra el boton de regresar y de enviar-->
                     <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip"
                         data-placement="bottom" title="Salir"><i class="fas fa-arrow-left"></i></button>
-                        <span data-toggle="tooltip" data-placement="left" title="Enviar">
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#codigoContra">
-                                <i class="fas fa-sign-in-alt"></i>
-                            </button>
-                        </span>
+                    <span data-toggle="tooltip" data-placement="left" title="Enviar">
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#codigoContra">
+                            <i class="fas fa-sign-in-alt"></i>
+                        </button>
+                    </span>
                 </div>
             </div>
         </div>
@@ -138,9 +138,11 @@
                     <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip"
                         data-placement="bottom" title="Salir"><i class="fas fa-arrow-left"></i></button>
                     <span data-toggle="tooltip" data-placement="left" title="Verificar">
-                      <button type="button" class="btn btn-success"> <a href="changePassword.php"> </a>
-                          <i class="fas fa-check"></i>
-                      </button>
+                        <a href="changePassword.php">
+                            <button type="button" class="btn btn-success">
+                                <i class="fas fa-check"></i>
+                            </button>
+                        </a>
                     </span>
                 </div>
             </div>
