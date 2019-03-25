@@ -138,7 +138,7 @@
                     <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip"
                         data-placement="bottom" title="Salir"><i class="fas fa-arrow-left"></i></button>
                     <span data-toggle="tooltip" data-placement="left" title="Verificar">
-                      <button type="button" class="btn btn-success"> <a href="changePassword.php"> </<a>
+                      <button type="button" class="btn btn-success"> <a href="changePassword.php"> </a>
                           <i class="fas fa-check"></i>
                       </button>
                     </span>
