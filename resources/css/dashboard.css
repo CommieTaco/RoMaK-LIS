@@ -302,6 +302,7 @@ a.article:hover {
     color: #000;
     font-weight: 500;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #demo-header {
@@ -310,7 +311,7 @@ a.article:hover {
 
 }
 
-#entry-field {
+#entry-field, #ex-data{
     margin-top: 15px;
 }
 
