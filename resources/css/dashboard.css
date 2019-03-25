@@ -335,7 +335,9 @@ select option {
 #tests-types,
 #tests-profiles,
 #external-tests,
-#calc-exam-data {
+#calc-exam-data,
+#biochem-param,
+#normal-param {
     background-color: #fff;
     border-radius: 1em;
     height: auto;
@@ -343,6 +345,16 @@ select option {
     padding-bottom: 20px;
     width: 100%;
     word-wrap: break-word;
+}
+
+#params{
+    margin-top: 30px;
+    word-wrap: break-word;
+    height: auto;
+}
+
+#biochem-param{
+    margin-right: 20px;
 }
 
 #exam-formula{
@@ -375,10 +387,15 @@ select option {
     font-size: 1em;
     padding: 1em;
     border: solid black 1px;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
+    text-overflow: ellipsis;
     background-color: rgb(219, 219, 219);
     border-radius: 0.4em;
     font-weight: 600;
+}
+
+#save-request{
+    word-wrap: break-word;
 }
 
 #indiv-test:hover {
