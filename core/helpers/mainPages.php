@@ -105,11 +105,6 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="contacts.php" data-toggle="tooltip" data-placement="top" title="Contactos">
-                                        <i class="fas fa-address-book fa-2x"></i>
-                                    </a>
-                                </li>
-                                <li>
                                     <a href="connect.php" data-toggle="tooltip" data-placement="top" title="Conexiones">
                                         <i class="fas fa-broadcast-tower fa-2x"></i>
                                     </a>
