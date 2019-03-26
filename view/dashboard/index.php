@@ -139,7 +139,7 @@
                         data-placement="bottom" title="Salir"><i class="fas fa-arrow-left"></i></button>
                     <span data-toggle="tooltip" data-placement="left" title="Verificar">
                     <button type="button" class="btn btn-success" data-toggle="modal" data-target="#cambiarContra">
-                            <i class="fas fa-sign-in-alt"></i>
+                            <i class="fas fa-check"></i>
                     </span>
                 </div>
             </div>
