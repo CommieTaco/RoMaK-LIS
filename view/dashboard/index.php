@@ -180,7 +180,7 @@
                     <span data-toggle="tooltip" data-placement="left" title="Enviar">
                         <a href="index.php">
                             <button type="button" class="btn btn-success">
-                                <i class="fas fa-check"></i>
+                                <i class="fas fa-save"></i>
                             </button>
                         </a>
                     </span>
