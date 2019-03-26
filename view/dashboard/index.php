@@ -138,7 +138,47 @@
                     <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip"
                         data-placement="bottom" title="Salir"><i class="fas fa-arrow-left"></i></button>
                     <span data-toggle="tooltip" data-placement="left" title="Verificar">
-                        <a href="changePassword.php">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#cambiarContra">
+                            <i class="fas fa-sign-in-alt"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal para recuperar contraseña -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true" id="cambiarContra">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modificar Contraseña</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!--Cuerpo del modal donde se encuentran los campos de recuperar contraseña-->
+                    <form>
+                        <div class="form-row">
+                            <!--Fila con los todos los campos-->
+
+                            <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                                <label for="nueva" class="col-form-label">Nueva contraseña</label>
+                                <input type="password" class="form-control" id="nueva">
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-6">
+                                <label for="verificar" class="col-form-label">Verificar contraseña</label>
+                                <input type="password" class="form-control" id="verificar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!--footer del modal donde se encuentra el boton de regresar y de guardar-->
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip"
+                        data-placement="bottom" title="Salir"><i class="fas fa-arrow-left"></i></button>
+                    <span data-toggle="tooltip" data-placement="left" title="Enviar">
+                        <a href="index.php">
                             <button type="button" class="btn btn-success">
                                 <i class="fas fa-check"></i>
                             </button>
