@@ -36,7 +36,7 @@
                                                 id="btnIngresar">Ingresar</button>
                                         </div>
                                     </form>
-                                    <a href="" data-toggle="modal" data-target="#recuperarContra">Recuperar contraseña</a>
+                                    <a href="" data-toggle="modal" data-target="#recuperarContra" id="recu-link">Recuperar contraseña</a>
                                 </div>
                             </div>
 
@@ -50,7 +50,7 @@
             </div>
         </div>
         <!-- Barra lateral derecha estética -->
-        <div id="side-bar" class="col-md-3 justify-content-center align-middle align-middle">
+        <div id="side-bar" class="col-md-3 justify-content-center align-middle align-middle d-none d-lg-block">
             <div class="container-fluid">
                 <div class="row justify-content-center align-middle">
                     <div class="col-sm-12 justify-content-center align-middle">

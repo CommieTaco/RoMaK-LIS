@@ -26,12 +26,7 @@
                                 <div id="sideBar" class="sidebar-header">
                                 <strong>RL</strong>
                             </div>
-                            <ul class="list-unstyled components">
-                                <li>
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Principal">
-                                        <i class="fas fa-home fa-2x"></i>
-                                    </a>
-                                </li>
+                            <ul class="list-unstyled components">                                
                                 <li>
                                     <a href="requests.php" data-toggle="tooltip" data-placement="top" title="Solicitud">
                                         <i class="fa fa-briefcase fa-2x"></i>
