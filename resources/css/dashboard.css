@@ -353,8 +353,8 @@ select option {
     height: auto;
 }
 
-#biochem-param{
-    margin-right: 20px;
+.biochem-cont{
+    margin-left: 15px;
 }
 
 #exam-formula{
@@ -382,7 +382,8 @@ select option {
 }
 
 #indiv-test,
-#indiv-test2 {
+#indiv-test2,
+#indiv-param {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     padding: 1em;
@@ -398,7 +399,7 @@ select option {
     word-wrap: break-word;
 }
 
-#indiv-test:hover {
+#indiv-test:hover, #indiv-param:hover {
     color: #fff;
     background-color: #1481BA;
     cursor: pointer;
